@@ -1,0 +1,26 @@
+{
+	"name": "SoftwarePackages",
+	"version": "0.0.1",
+	"author": ["Matthew R. Kisow, D.Sc."],
+	"url": "https://github.com/DoctorKisow/SoftwarePackages.git",
+	"descriptionmsg": "customsoftwarepackage-desc",
+	"license-name": "GPL-3.0",
+	"type": "parserhook",
+	"MessagesDirs": { "SoftwarePackages": "i18n" },
+	"AutoloadClasses": {"SoftwarePackages": "SoftwarePackages.php"},
+	"config": {"BoilerPlateEnableFoo": true},
+	"Hooks": {"ParserFirstCallInit": ["SoftwarePackages::initHooks"]},
+	"ResourceModules": {
+		"ext.softwarePackages": {
+			"styles": [
+				"resources/css/softwarePackages.css"
+			],
+			"position": "top"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SoftwarePackages"
+	},
+	"manifest_version": 1
+}

@@ -1,0 +1,39 @@
+div.gp-panel {
+
+}
+
+div.gp-panel-heading h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+div.gp-panel-heading h3 small.gp-pkg-desc {
+  font-size: 90%;
+  margin-left: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+div.gp-panel-footer {
+  color: #666;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.panel table.table tr th:first-child,
+.panel table.table tr td:first-child {
+  padding-left: 1em;
+}
+
+.gp-useflag-table-container {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.gp-useflag-type {
+  font-size: 85%;
+  color: #888;
+  text-align: right;
+}
